@@ -1,0 +1,104 @@
+
+.chromepop ul{
+margin:5px;
+width: 340px;
+overflow: scroll;
+height:100px;
+}
+div.chromepop .showerrorbutton{border-radius:5px;width:100px;position:absolute;left:200px;top:20px;text-align:center;height:30px;line-height: 30px;background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(238, 238, 238)), to(rgb(172, 172, 172)));}
+div.chromepop{z-index:9999;width:350px;overflow:hidden;position:fixed;background-color:#fff;}
+div.chromepop .topbar{width:350px;height:18px;border-radius:5px 5px 0 0 ;cursor:pointer;line-height:18px;background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eeeeee), color-stop(1, #acacac));}
+div.chromepop .topbar .close{background: -webkit-linear-gradient(top, #de130e 0%,#ffb6b4 100%);line-height:0;font-size:0;width:10px;height:10px;margin-top:5px;border-radius:5px;float:right;margin-right:5px;}
+div.chromepop .fd-left{float:left;}
+div.chromepop .status{width:25px;height:20px;position:relative;overflow:hidden;}
+div.chromepop div.dragbar{position:absolute;top:0;left:0;width:30px;height:20px;-webkit-transition:all 0.5s ease-in-out;}
+/*li.hover div.dragbar{left:13px;}*/
+div.chromepop li .value a{width:200px;}
+div.chromepop li .searchposition a{width:30px;}
+div.chromepop li a{height:13px;float:left;position: relative;}
+/*div.chromepop li a.bac:before,li a.show:before{position:absolute;top:0;left:0;}
+div.chromepop li a.bac{background-color:#fff;margin-left:2px;}
+div.chromepop li a.show{background-color:#fff;}*/
+/*li.hover .dragbar{-webkit-transition:all 0.5s ease-in-out;}*/
+div.chromepop li{width:320px;height:20px;font-size:12px;color:#333;line-height: 20px;}
+div.chromepop .value{width:160px;height:20px;overflow: hidden;background-color:#fff;}
+div.chromepop .value a{color:#333;}
+/*div.chromepop li a.halflings{display:block;-webkit-transition:all 3s ease-in-out;padding:0;top:3px;}*/
+/*div.chromepop a.refresh{-webkit-transform:rotate(360deg);-webkit-animation:refresh 1s linear infinite;}
+@-webkit-keyframes refresh{from {-webkit-transform:rotate(0deg);} to {-webkit-transform: rotate(360deg);}}
+div.chromepop a.question-sign:before{color:blue;}
+div.chromepop a.remove-sign{color:red;}
+div.chromepop a.ok-sign:before{color:green;}
+div.chromepop li a.bac:before{top:0px;left:0px;}*/
+
+div.chromepop div.searchposition{margin-left:10px;width:30px;height:20px;position:relative;}
+div.chromepop div.info{width:90px;height:20px;overflow:hidden;}
+/*
+div.chromepop li.leave{-webkit-transform: translate(-300px,0);
+-webkit-transition: 1s ease-in-out;
+}
+div.chromepop .halflings:before{background-color:#fff;margin:0;}*/
+/*li.goup{-webkit-transform:translate(0,-20px);}*/
+/* div.chromepop li.error{-webkit-animation:mymove 1s ease-in-out;}
+@keyframes hide{
+from{ display:block; }
+to{ display:none; }
+}
+@keyframes mymove
+{
+from{margin-left:0;}
+to{margin-left:-400px;}
+}*/
+/*.header span{display:block;}*/
+div.chromepop .value-error b{color:red;}
+div.chromepop #submit{float: right;margin-right:30px;margin-top:-50px;}
+div.chromepop .label{padding-left:5px;}
+div.chromepop #reglure{width:120px;}
+div.chromepop div.header{padding-top:10px;position:relative;}
+
+/**
+ * Just, a front-end application framework for trade product line in alibaba.cn
+ * @author  Edgar Hoo , edgarhoo@gmail.com
+ * @version v0.2
+ * @build   120926
+ * @uri     http://just.edgarhoo.org/
+ * @license MIT License
+ * 
+ * @base    fdev-v4, http://style.c.aliimg.com/fdevlib/css/fdev-v4/core/fdev-float.css
+ * @include Vin, http://vin.edgarhoo.org/
+ * */
+
+h1,h2,h3,h4{font-weight:700;}a:hover,a:active{color:#ff7300!important;}
+.layout-space{margin-top:8px;}.layout-space .layout{margin-bottom:8px;}.layout-fixed{margin-bottom:0!important;}.grid-right{float:right!important;}
+.float-cancel{float:none!important;}.last-col{margin-right:0!important;padding-right:0!important;}.ms-yh{font-family:"\5FAE\8F6F\96C5\9ED1","\9ED1\4F53","\6587\6CC9\9A7F\6B63\9ED1\4F53","\534E\6587\7EC6\9ED1",STHeiti;font-weight:400;}
+a.a-img,a.a-mix{display:inline-block;font-size:0;line-height:0;}a.a-mix:hover,a.a-mix:active{text-decoration:none;}a.a-mix img{margin-bottom:2px;}a.a-mix span,a.a-mix .description{display:block;font-size:12px;line-height:1.5;}
+.list{zoom:1;}.list:after{display:block;clear:both;height:0;content:"\0020";}.list li{float:left;}.list li li{float:none;}
+.cell-header,{zoom:1;}.cell-header:after{display:block;clear:both;height:0;content:"\0020";}.cell-header .title,.cell-header li,.cell-header dt,.cell-header dd,.cell-tags li{float:left;}.cell-header p,.cell-header ul,.cell-header dl{overflow:hidden;_display:inline-block;}.cell-header .panel{float:right;}
+
+/**
+ * @fileoverview Vin Lang Img
+ * @author Edgar
+ * @build 120426
+ * */
+ 
+.img-vertical{
+    display: table;
+    text-align: center;
+    overflow: hidden;
+    font-size: 0;
+    *display: block; /* for IE6/7 */
+    *layout-grid-line:100%;
+}
+
+.img-vertical .img-wrap{
+    display: table-cell;
+    vertical-align: middle;
+    *display: inline; /* for IE6/7 */
+    *writing-mode: tb-rl; /* for IE6/7 */
+    *text-align: center;
+    *height: 100%;
+}
+
+.img-vertical img{
+    vertical-align: middle;
+}

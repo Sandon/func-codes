@@ -1,0 +1,111 @@
+.cascade-select .selected-items li a,
+.cascade-select .cascade-select-area li,
+.cascade-select .cascade-select-area .check-icon {
+  background-image: url("https://cbu01.alicdn.com/cms/upload/2015/956/813/2318659_81076344.png");
+  background-repeat: no-repeat;
+}
+.cascade-select {
+  width: 576px;
+  padding: 11px 10px 10px;
+  border: 1px solid #e8e8e8;
+  color: #666;
+  position: relative;
+  background-color: #fff;
+  /*.selected-items*/
+  /*.cascade-select-area*/
+}
+.cascade-select .selected-items {
+  line-height: 16px;
+}
+.cascade-select .selected-items .txt {
+  display: inline-block;
+  width: 50px;
+  height: 18px;
+  float: left;
+  visibility: hidden;
+}
+.cascade-select .selected-items .txt.show {
+  visibility: visible;
+}
+.cascade-select .selected-items ul {
+  width: 526px;
+  float: left;
+}
+.cascade-select .selected-items li {
+  height: 16px;
+  overflow: hidden;
+  float: left;
+  margin: 0 22px 2px 0;
+}
+.cascade-select .selected-items li span {
+  display: inline-block;
+}
+.cascade-select .selected-items li a {
+  display: inline-block;
+  width: 11px;
+  height: 16px;
+  background-position: 0 2px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.cascade-select .selected-items li a:hover {
+  background-position: 0 -19px;
+}
+.cascade-select .cascade-select-area {
+  width: 596px;
+  height: 348px;
+  display: none;
+  border: 1px solid #3e9afd;
+  border-top: none;
+  position: absolute;
+  bottom: -350px;
+  left: -1px;
+  overflow: hidden;
+  background: #fff;
+}
+.cascade-select .cascade-select-area .cascade-level-wrap {
+  width: 597px;
+}
+.cascade-select .cascade-select-area .cascade-level {
+  width: 198px;
+  height: 348px;
+  float: left;
+  border-right: 1px solid #3e9afd;
+  overflow-y: scroll;
+}
+.cascade-select .cascade-select-area li {
+  width: 185px;
+  height: 15px;
+  padding: 7px 0 8px 13px;
+  float: left;
+  background-position: 1000px 1000px;
+}
+.cascade-select .cascade-select-area li span {
+  float: left;
+  height: 15px;
+  line-height: 15px;
+}
+.cascade-select .cascade-select-area li .check-icon {
+  width: 17px;
+  margin-right: 13px;
+  background-position: 0 -42px;
+}
+.cascade-select .cascade-select-area li:hover {
+  background-color: #027cff;
+  color: #fff;
+}
+.cascade-select .cascade-select-area li.cascade-has-sub {
+  background-position: 183px -85px;
+}
+.cascade-select .cascade-select-area li.cascade-has-sub:hover {
+  background-position: 183px -108px;
+}
+.cascade-select .cascade-select-area li.selected .check-icon {
+  background-position: 0 -67px;
+}
+.cascade-select .cascade-select-area li.cascade-disabled .check-icon {
+  display: none;
+}
+.cascade-select:hover {
+  border: 1px solid #3e9afd;
+}
